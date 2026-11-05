@@ -4,9 +4,9 @@
 cask "mcp-dock" do
   arch arm: "-arm64", intel: ""
 
-  version "1.4.1"
-  sha256 arm:   "8b3a367fa9713793726e7783f1fee3e12a2187ca03b40773d87140e04bd7cbe9",
-         intel: "0cbe931fc48429254bd281f2c012e97a5857fe9493d5a0842f02e6d71635713f"
+  version "1.4.2"
+  sha256 arm:   "fe4ec5d3160595b43278c1085257f3e91328767ce4925b8d2fe5f0e5dc100d01",
+         intel: "db5b186f12c9ecf61d11ca62c5657382faa9c854bace342a3e1d033d946a5578"
 
   url "https://github.com/folay-git/mcp-dock/releases/download/v#{version}/MCP.Dock-#{version}#{arch}.dmg"
   name "MCP Dock"
