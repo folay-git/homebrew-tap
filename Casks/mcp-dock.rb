@@ -4,11 +4,11 @@
 cask "mcp-dock" do
   arch arm: "-arm64", intel: ""
 
-  version "1.4.0"
-  sha256 arm:   "479986ad9978c22195ccfdc850d7e407cdaa731d050a6630b5606725c06f9bdc",
-         intel: "7ce8b0c90e2d04249e97a3bb5670695b1a3867122d2751368d68360f95e71943"
+  version "1.4.1"
+  sha256 arm:   "8b3a367fa9713793726e7783f1fee3e12a2187ca03b40773d87140e04bd7cbe9",
+         intel: "0cbe931fc48429254bd281f2c012e97a5857fe9493d5a0842f02e6d71635713f"
 
-  url "https://github.com/today-fo/mcp-dock/releases/download/v#{version}/MCP.Dock-#{version}#{arch}.dmg"
+  url "https://github.com/OldJii/mcp-dock/releases/download/v#{version}/MCP.Dock-#{version}#{arch}.dmg"
   name "MCP Dock"
   desc "Manage MCP servers, Skills and Rules for AI coding clients"
   homepage "https://mcp.folay.top"
