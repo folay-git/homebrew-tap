@@ -5,7 +5,7 @@ MCP Dock 的 Homebrew Tap。
 ## 安装
 
 ```bash
-brew install --cask OldJii/tap/mcp-dock
+brew install --cask folay-git/tap/mcp-dock
 ```
 
 Cask 同时支持 Apple Silicon 与 Intel：下载 GitHub Release 里的 DMG，并按该安装包真实的 SHA-256 校验。版本与校验值由发布流程在 Release 公开之后自动生成。
